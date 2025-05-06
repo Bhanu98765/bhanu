@@ -65,6 +65,7 @@ public class MedicinesController : ControllerBase
 
         return NoContent(); 
     }
+    //delete method
     [HttpDelete("{id}")]
     public async Task<IActionResult> DeleteMedicine(int id)
     {
